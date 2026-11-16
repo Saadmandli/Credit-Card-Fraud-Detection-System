@@ -1,0 +1,26 @@
+# Virtual environment
+.venv/
+
+# Data files (oversized binaries)
+data/*.csv
+data/*.zip
+
+# Saved model binaries
+models/*.h5
+models/*.keras
+models/*.joblib
+models/*.pkl
+
+# Python cache & temporary files
+__pycache__/
+*.py[cod]
+*$py.class
+*.bak
+*.tmp
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# macOS & OS artifacts
+.DS_Store
+Thumbs.db
